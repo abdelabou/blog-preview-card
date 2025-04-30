@@ -90,7 +90,13 @@ main {
   cursor: pointer;
 }
 
-.card .body h1:hover {
+.card .body a {
+  text-decoration: none;
+  color: var(--gray-900);
+}
+
+.body a:hover,
+.body a:focus {
   color: var(--yellow);
 }
 
